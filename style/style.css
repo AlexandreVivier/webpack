@@ -127,6 +127,7 @@ section{
 .input:focus{
     outline: none;
     box-shadow: 0 0 10px rgb(35, 174, 187);
+    transition: 0.3s ease;
 }
 
 /* Media Queries */
