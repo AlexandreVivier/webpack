@@ -11,6 +11,11 @@ main{
     margin: auto;
 }
 
+section{
+    border-top: 1px solid;
+    border-image: linear-gradient(to right, rgb(35, 174, 187), darkorchid) 1;
+}
+
 .font{
     font-family: 'Tulpen One', cursive;
     font-size: 3em;
@@ -41,7 +46,8 @@ main{
 }
 
 .menu-items:hover{
-    color: rgb(36, 31, 63);
+    text-decoration: underline;
+    color: #683ec4;
     transition: 0.1s ease;
 }
 
