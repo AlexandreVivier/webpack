@@ -16,6 +16,12 @@ main{
     font-size: 3em;
 }
 
+.name{
+    font-family: 'Tulpen One', cursive;
+    font-size: 2em;
+    color: rgb(35, 174, 187) ;
+}
+
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -40,7 +46,7 @@ main{
 }
 
 .landing{
-    height: 70vh;
+    height: 50vh;
 
 }
 
@@ -62,6 +68,8 @@ main{
 .inline-title{
     display: flex;
     justify-content: space-around;
+    font-weight: bold;
+
 }
 
 .place{
