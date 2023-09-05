@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>HomeStars</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <h1 class="font">HomeStars</h1>
+            </div>
+            <ul class="menu">
+                <li><a href="index.html" class="menu-items">Accueil</a></li>
+                <li><a href="#adds" class="menu-items">Annonces</a></li>
+                <li><a href="#about" class="menu-items">A propos</a></li>
+                <li><a href="#contact" class="menu-items">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2 class="font">Accueil</h2>
+            <article class="landing">
+                <p>
+                    HomeStars propose des solutions de logement spatial de luxe pour tous les budgets, grands ou petits, à partir du milliard.
+                </p>
+            </article>
+        </section>
+
+        <section id="adds">
+            <h2 class="font">Annonces</h2>
+
+            <div class="adds">
+                <div class="add">
+                    <div class="inline-title">
+                        <h3>F4 neuf</h3>
+                        <p>450 M</p>
+                    </div>
+                    <p>Description</p>            
+                    <p class="place">Ganymède</p>
+                    <img class="miniature" src="photo1.png" alt="apartment n°1">
+                </div>
+
+                <div class="add">
+                    <div class="inline-title">
+                        <h3>Duplex</h3>
+                        <p>36 M</p>
+                    </div>
+                    <p>Description</p>
+                    <p class="place">Bételgeuse</p>
+                    <img class="miniature" src="photo2.png" alt="apartment n°2">
+                </div>
+
+                <div class="add">
+                    <div class="inline-title">
+                        <h3>Studio</h3>
+                        <p>150 M</p>
+                    </div>
+                    <p>Description</p>
+                    <p class="place">Antarès</p>
+                    <img class="miniature" src="photo3.png" alt="apartment n°3">
+                </div>
+
+                <div class="add">
+                    <div class="inline-title">
+                        <h3>F5</h3>
+                        <p>200 M</p>
+                    </div>
+                    <p>Description</p>
+                    <p class="place">Sirius</p>
+                    <img class="miniature" src="photo4.png" alt="apartment n°4">
+                </div>
+        </section>
+
+        <section id="about">
+            <h2 class="font">A propos</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta accusantium impedit architecto, quas eligendi suscipit praesentium dolorem ipsum dolores dolorum quibusdam cum harum tempora adipisci aliquam voluptatem eum. Tenetur, consequatur!</p>
+        </section>
+
+        <section id="contact">
+            <h2 class="font">Contact</h2>
+            <form method="post" name="contact" class="contact">
+                <label for="name">Nom</label>
+                <input type="text" name="name" id="name" placeholder="Votre nom" required>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="Votre email" required>
+                <label for="message">Message</label>
+                <textarea name="message" id="message" placeholder="Votre message" required></textarea>
+                <input type="submit" value="Envoyer">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p><a href="#">Mentions légales</a></p>
+    </footer>
+</body>
+</html>

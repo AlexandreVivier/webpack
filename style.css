@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&family=Tulpen+One&display=swap');
+
+html{
+    font-family: 'Poppins', sans-serif;
+    background-color: #050816;
+    color: white;
+}
+
+main{
+    width: 80%;
+    margin: auto;
+}
+
+.font{
+    font-family: 'Tulpen One', cursive;
+    font-size: 3em;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    list-style: none;
+}
+
+.menu-items{
+    text-decoration: none;
+    color: #915EFF;
+    font-weight: bold;
+}
+
+.menu-items:hover{
+    color: rgb(36, 31, 63);
+    transition: 0.1s ease;
+}
+
+.landing{
+    height: 70vh;
+
+}
+
+.adds{
+    display: flex;
+    justify-content: space-between;
+}
+.add{
+    width: 25%;
+    border-radius: 10px;
+    border: 1px solid;
+    border-image: linear-gradient(to right, rgb(35, 174, 187), darkorchid) 1;
+    background-color: #1D1836;
+    padding: 20px;
+    margin: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+.inline-title{
+    display: flex;
+    justify-content: space-around;
+}
+
+.place{
+    font-weight: bold;
+}
+.miniature{
+    width: 100%;
+}
+
+.contact{
+    display:flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+}
