@@ -46,7 +46,7 @@ section{
 }
 
 .menu-items:hover{
-    text-decoration: underline;
+    border-bottom: #683ec4 1px solid;
     color: #683ec4;
     transition: 0.1s ease;
 }
@@ -90,4 +90,51 @@ section{
     flex-direction: column;
     width: 50%;
     margin: auto;
+}
+
+.input {
+    background-color: #000000;
+    padding: 10px;
+    border: 1px solid;
+    border-image: linear-gradient(to right, rgb(35, 174, 187), darkorchid) 1;
+    border-radius: 10px;
+    color: white;
+}
+
+.input-submit{
+    background: linear-gradient(to right, rgb(35, 174, 187), darkorchid);
+    padding: 10px;
+    border-radius: 25px;
+    color: white;
+    border: none;
+    margin-top: 10px;
+}
+
+.input-submit:hover{
+    background: linear-gradient(to left, rgb(35, 174, 187), darkorchid);
+    transition: 1s ease;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 768px){
+    .menu{
+        width: 45%;
+        flex-direction: column;
+        border-left: 1px solid;
+        border-image: linear-gradient(to right, rgb(35, 174, 187), darkorchid) 1;
+    }
+    .landing{
+        height: 30vh;
+    }
+    .adds{
+        flex-direction: column;
+    }
+    .add{
+        width: 80%;
+        margin-right: 50px;
+    }
+    .contact{
+        width: 100%;
+    }
 }
